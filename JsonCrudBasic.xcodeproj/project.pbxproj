@@ -14,6 +14,7 @@
 		E77833C51C27C79F0099774B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E77833C41C27C79F0099774B /* Images.xcassets */; };
 		E77833C81C27C79F0099774B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E77833C61C27C79F0099774B /* LaunchScreen.xib */; };
 		E77833D41C27C79F0099774B /* JsonCrudBasicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E77833D31C27C79F0099774B /* JsonCrudBasicTests.m */; };
+		E77833DF1C27CA360099774B /* UrlClass.m in Sources */ = {isa = PBXBuildFile; fileRef = E77833DE1C27CA360099774B /* UrlClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E77833CD1C27C79F0099774B /* JsonCrudBasicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JsonCrudBasicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E77833D21C27C79F0099774B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E77833D31C27C79F0099774B /* JsonCrudBasicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JsonCrudBasicTests.m; sourceTree = "<group>"; };
+		E77833DD1C27CA360099774B /* UrlClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlClass.h; sourceTree = "<group>"; };
+		E77833DE1C27CA360099774B /* UrlClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		E77833AB1C27C79F0099774B = {
 			isa = PBXGroup;
 			children = (
+				E77833DD1C27CA360099774B /* UrlClass.h */,
+				E77833DE1C27CA360099774B /* UrlClass.m */,
 				E77833B61C27C79F0099774B /* JsonCrudBasic */,
 				E77833D01C27C79F0099774B /* JsonCrudBasicTests */,
 				E77833B51C27C79F0099774B /* Products */,
@@ -221,6 +226,7 @@
 			files = (
 				E77833C01C27C79F0099774B /* ViewController.m in Sources */,
 				E77833BD1C27C79F0099774B /* AppDelegate.m in Sources */,
+				E77833DF1C27CA360099774B /* UrlClass.m in Sources */,
 				E77833BA1C27C79F0099774B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
